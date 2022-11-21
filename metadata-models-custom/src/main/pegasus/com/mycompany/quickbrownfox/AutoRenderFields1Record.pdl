@@ -1,0 +1,7 @@
+namespace com.mycompany.quickbrownfox
+
+record AutoRenderFields1Record {
+  firststring: string 
+  secondstring: string
+  firstboolean: optional boolean 
+}

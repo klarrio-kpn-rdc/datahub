@@ -1,0 +1,8 @@
+id: mycompany-quickbrownfox
+entities:
+  - name: dataset
+    aspects:
+      - customDataQualityRules
+  - name: domain
+    aspects:
+      - customDataQualityRules

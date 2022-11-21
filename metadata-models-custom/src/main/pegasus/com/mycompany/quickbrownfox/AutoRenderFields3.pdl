@@ -1,0 +1,22 @@
+namespace com.mycompany.quickbrownfox
+
+//import com.linkedin.common.Urn
+
+@Aspect = {
+  "name": "autoRenderFields3",
+  "autoRender": true,
+  "renderSpec": {
+    "displayType": "properties", // tabular or properties
+    //"key": "singlestring", // which array field to render as table
+    "displayName": "QuickBrownFoxFields3"
+  }
+	
+}
+record AutoRenderFields3 {
+  firststring: string 
+  secondstring: string
+  firstboolean: optional boolean
+
+
+  
+}

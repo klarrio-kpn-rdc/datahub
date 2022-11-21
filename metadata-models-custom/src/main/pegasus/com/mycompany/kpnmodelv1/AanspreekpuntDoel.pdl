@@ -1,0 +1,7 @@
+namespace com.mycompany.kpnmodelv1
+
+enum AanspreekpuntDoel {
+	DATA_GOVERNANCE
+	TECHNICAL_PROBLEMS
+	DATA_CONSUMER_ONBOARDING
+}

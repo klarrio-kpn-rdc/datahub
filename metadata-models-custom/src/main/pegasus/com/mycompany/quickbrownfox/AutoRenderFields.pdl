@@ -1,0 +1,50 @@
+namespace com.mycompany.quickbrownfox
+
+import com.linkedin.common.Urn
+
+@Aspect = {
+  "name": "autoRenderFields",
+  "autoRender": true,
+  "renderSpec": {
+    "displayType": "properties", // tabular or properties
+    //"key": "singlestring", // which array field to render as table
+    "displayName": "QuickBrownFoxFields"
+  }
+	
+}
+record AutoRenderFields {
+  singlestring: string
+  optionalstring: optional string
+  arrayofstrings: array[string]
+  singleboolean: boolean
+  optionalboolean: optional boolean
+  arrayofbooleans: array[boolean]
+  singleint: int
+  optionalint: optional int
+  arrayofints: array[int]
+  singlelong: long
+  optionallong: optional long
+  arrayoflongs: array[long]
+  singlefloat: float
+  optionalfloat: optional float
+  arrayoffloats: array[float]
+  singledouble: double
+  optionaldouble: optional double
+  arrayofdoubles: array[double]
+  singlebytes: bytes
+  optionalbytes: optional bytes
+  arrayofbytes: array[bytes]
+  singlenull: union[null,  string]
+  //optionalnull: optional null
+  //arrayofnulls: array[null]
+  singleurn: Urn
+  //@Searchable {
+  //
+  //}
+  singleenum: ConsumerBusinessEnum
+  optionalenum: optional ConsumerBusinessEnum
+  arrayofenums: array[ConsumerBusinessEnum]
+
+
+  
+}

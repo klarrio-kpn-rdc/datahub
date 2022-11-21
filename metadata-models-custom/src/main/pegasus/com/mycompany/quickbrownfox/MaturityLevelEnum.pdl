@@ -1,0 +1,15 @@
+namespace com.mycompany.quickbrownfox
+
+/**
+ * Defines the documentation maturity level, higher is better
+ */
+enum MaturityLevelEnum {
+	
+	MATURITY_ZERO
+
+	MATURITY_ONE
+
+	MATURITY_TWO
+
+	MATURITY_THREE
+}

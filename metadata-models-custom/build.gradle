@@ -25,8 +25,8 @@ if (project.hasProperty('projVersion')) {
 dependencies {
   compile spec.product.pegasus.data
   // Uncomment these if you want to depend on models defined in core datahub
-  //compile project(':li-utils')
-  //dataModel project(':li-utils')
+  compile project(':li-utils')
+  dataModel project(':li-utils')
   //compile project(':metadata-models')
   //dataModel project(':metadata-models')
 

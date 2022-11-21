@@ -1,0 +1,24 @@
+namespace com.mycompany.quickbrownfox
+
+/**
+ * Definess the business segments 
+*/
+
+enum ConsumerBusinessEnum {
+	/** 
+	 * Represents the direct to consumer market 
+	 */
+	CONSUMERMARKET
+
+	/**
+	 * Represents the business market including ZZP, SME, large companies
+	 */
+	BUSINESSMARKET
+
+	/**
+	* Represents small business
+	*/
+	@deprecated = "Use BUSINESSMARKET"
+	SMALL
+	
+}

@@ -6,4 +6,5 @@ record DataQualityRule {
   type: string
   checkDefinition: optional string
   url: optional string
+  extrajellefield: optional boolean
 }

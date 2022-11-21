@@ -1,0 +1,13 @@
+namespace com.mycompany.quickbrownfox
+
+@Aspect = {
+	"name": "hasMaturityLevels",
+	"autoRender": true,
+	"renderSpec": {
+		"displayType": "properties",
+		"displayName": "MaturityLevels"
+	}
+}
+record HasMaturityLevels {
+	levels: MaturityLevels
+}
