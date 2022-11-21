@@ -1,5 +1,11 @@
-id: mycompany-dq-model
+id: mycompany-quickbrownfox
 entities:
   - name: dataset
     aspects:
-      - customDataQualityRules
+      - autoRenderFields
+      - autoRenderFields2
+      - autoRenderFields3
+      - hasMaturityLevel
+      - hasDocumentedDownstreams
+      - hasMaturityLevels
+      - hasAutoRenderFields1Table

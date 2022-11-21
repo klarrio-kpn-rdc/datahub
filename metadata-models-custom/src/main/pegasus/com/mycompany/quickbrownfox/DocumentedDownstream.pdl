@@ -1,0 +1,19 @@
+namespace com.mycompany.quickbrownfox
+
+/**
+ * Documents a registered downstream usage 
+ */
+record DocumentedDownstream {
+
+
+	market: ConsumerBusinessEnum
+
+	usecasename: string
+
+	referencepersonemail: string
+
+	guaranteedStabilityDateYyyyMmDd: string
+
+	rating: int
+
+}

@@ -1,0 +1,14 @@
+namespace com.mycompany.quickbrownfox
+
+@Aspect = {
+  "name": "hasAutoRenderFields1Table",
+  "autoRender": true,
+  "renderSpec": {
+    "displayType": "tabular", // tabular or properties
+    "key": "autoRenderFields1Table", // which array field to render as table
+    "displayName": "QuickBrownFoxFields1Table"
+  }
+}
+record HasAutoRenderFields1Table {
+	autoRenderFields1Table: array[AutoRenderFields1Record]
+}

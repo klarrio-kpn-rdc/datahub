@@ -1,0 +1,14 @@
+namespace com.mycompany.quickbrownfox
+
+@Aspect = {
+	"name": "hasDocumentedDownstreams",
+	"autoRender": true,
+	"renderSpec": {
+		"displayType": "tabular",
+		"key": "dowstreams",
+		"displayName": "Downstreams"
+	}
+}
+record HasDocumentedDownstreams {
+	dowstreams: array [DocumentedDownstream]
+}

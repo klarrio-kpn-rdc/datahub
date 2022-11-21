@@ -1,0 +1,6 @@
+namespace com.mycompany.quickbrownfox
+
+record MaturityLevels {
+	selfdeclared: MaturityLevelEnum = "MATURITY_ONE"
+	reviewed: MaturityLevelEnum = "MATURITY_ZERO"
+}

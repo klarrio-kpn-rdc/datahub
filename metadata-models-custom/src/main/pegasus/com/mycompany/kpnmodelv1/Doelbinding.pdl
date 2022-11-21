@@ -1,0 +1,6 @@
+namespace com.mycompany.kpnmodelv1
+
+enum Doelbinding {
+	MARKETING
+	OPERATIONAL
+}
